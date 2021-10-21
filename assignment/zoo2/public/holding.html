@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#FFD620">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wilson Zoo">
+    <link rel="stylesheet" href="stylesBase.css">
+    <title>Welcome to Wilson Zoo!</title>
+
+</head>
+
+<body>
+    <div id="myPage">
+        <header id="mainHeader">
+            <h1>Welcome to Wilson Zoo</h1>
+
+        </header>
+        <nav class="mainNav">
+            <!--personal photograph-->
+            <a href="index.html">
+                <picture class="logo">
+                    <img src="images/svg.svg" alt="logo" width="200" height="200">
+                </picture>
+            </a>
+            <ul>
+                <li><a href="index.html"><span class="navbutton">Home</span></a></li>
+                <li><a href="about.html"><span class="navbutton">About</span></a></li>
+                <li><a href="animals.html"><span class="navbutton">Animals</span></a></li>
+                <li><a href="kids.html"><span class="navbutton">Kids</span></a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="h2d2">Content Coming Soon.....</h2>
+            <div class="top">
+                <!-- Image from this website:  https://whiterivernow.com/under-construction-sign/-->
+                <picture>
+                    <source srcset="images/sign.webp" type="image/webp">
+                    <source srcset="images/sign.jpg" type="image/jpg">
+                    <img src="images/sign.png" id="sign" alt="construction sign" class="bodyimg" width="1230" height="580">
+                </picture>
+                <p id="holdp">
+                    More website is currently being built, stay tuned for updates!
+                </p>
+            </div>
+
+        </main>
+        <footer>
+            <p> &copy; Wilson Zoo Tel No. 01234 654 321 <a href="bookings.html">Book Your visit Today!</a></p>
+            <ul class="footer">
+                <li>
+                    <p class="footp">Web links to other UK Zoo's:</p>
+                </li>
+                <li class="taptarget"><a href="https://www.chesterzoo.org/">Chester Zoo</a></li>
+                <li class="taptarget"><a href="https://twycrosszoo.org/">Twycross Zoo</a></li>
+            </ul>
+            <p>Andrew Durnall - 19025889</p>
+        </footer>
+    </div>
+    <script>
+
+        //check whether browser support service workers
+
+        if ('serviceWorker' in navigator) {
+
+            window.addEventListener('load', function () {
+
+                navigator.serviceWorker.register('serviceworker.js').then(
+
+                    function (registration) {
+
+                        console.log('Service worker registration successful', registration);
+
+                    },
+
+                    function (err) {
+
+                        console.log('Service worker registration failed', err);
+
+                    });
+
+            });
+
+        }
+
+    </script>
+</body>
+
+</html>

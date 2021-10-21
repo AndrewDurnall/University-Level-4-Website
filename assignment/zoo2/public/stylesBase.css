@@ -1,0 +1,646 @@
+
+/* mobile phone tablet and base settings */
+
+#myPage {
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: block;
+    width: 98.5%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.logo {
+    display: block;
+    width: auto;
+    height: 57px;
+    background: rgb(0, 0, 0);
+}
+
+nav img{
+    display: block;
+    width: auto;
+    height: 57px;
+}
+
+a{
+    color: rgb(255, 214, 32);
+}
+
+main {
+    margin: 0px 4px 0px 4px;
+    display:block;
+}
+
+p {
+    text-align: left;
+    width:auto;
+    background-color:rgb(0, 0, 0);
+    padding:0.5em 1em 0.7em 1em;
+    margin:0px 0px 15px 0px;
+}
+
+header {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(255, 214, 32);
+    border: 4px solid rgb(32, 32, 32);
+    border-bottom: 0;
+    padding-bottom: 3px;
+}
+
+header h1 {
+    font-size:2.3em;
+    margin: 0;
+    color:rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 2.2em;
+    padding: 0;
+    margin:5px 0px 5px 0px;
+    justify-self: center;
+    text-align: center;
+    color:rgb(255, 214, 32);
+}
+
+h3{
+    color:rgb(0, 0, 0);
+    background-color: #9b9b9b;
+    padding:0;
+    margin: 0;
+    font-size: 1.8em;
+    justify-self: center;
+    text-align: center;
+}
+.mainNav a {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    min-height: 57px;
+    line-height: 57px;
+    max-height: 57px;
+    display: block;
+    margin-left:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.mainNav {
+    min-height: 57px;
+    max-height: 57px;
+    position: sticky;
+    top: 0;
+    border: 4px solid rgb(46, 46, 46);
+    display: flex;
+    z-index: 100;
+}
+
+.navbutton{
+    text-decoration: none;
+    color: rgb(255, 214, 32);
+    font-size: 1.1em;
+}
+.mainNav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    text-decoration: none;
+    list-style-type: none;
+    flex-grow: 1;
+    background: rgb(46, 46, 46);
+}
+
+.mainNav li {
+    width: auto;
+    flex-grow:1;
+    background-color: rgb(46, 46, 46);
+    margin-left: 3px;
+}
+
+/*Nav button colors*/
+.mainNav a{
+    background-color: black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bodyimg{
+    width: 99%;
+    height: auto;
+    margin:0;
+    border:2px solid black;
+}
+
+.top a {
+    font-weight: bold;
+}
+
+footer {
+    padding: 1em 0.3em 1em 0.3em;
+    color: whitesmoke;
+}    
+
+#page{
+    text-decoration: underline whitesmoke;
+}
+
+.footer li{
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+#chamlink{
+    text-align: left;
+}
+
+#eventlink{
+    text-align: left;
+}
+
+footer ul{
+    padding-left: 16px;
+}
+
+.footer p{
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.box{
+    border: solid whitesmoke 2px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 5px 5px 5px;
+    background-color: black;
+}
+
+.box a{
+    display: block;
+    text-align: center;
+}
+
+.box p{
+    color: whitesmoke;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    background-color:black;
+}
+
+.boxa{
+    border: solid whitesmoke 2px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 5px 5px 5px;
+    background-color: black;
+}
+/*box b is the div containing the call to actions on the index page*/
+.boxb{
+    border:none;
+    margin:5px;
+    padding:0;
+    background-color: black;
+}
+
+.boxa a{
+    display: block;
+    text-align: left;
+}
+
+/*box b is the div containing the call to actions on the index page*/
+.boxb a{
+    display: block;
+    text-align: center;
+
+}
+
+.boxa p{
+    color: whitesmoke;
+    padding: 0;
+    background-color:black;
+}
+
+/*box b is the div containing the call to actions on the index page*/
+.boxb p{
+    color: whitesmoke;
+    padding: 0;
+    text-align: center;
+    background-color:black;
+}
+
+.info{
+    text-align: center;
+}
+
+/*Animal Page animal names colors*/
+
+#chamh2{
+    background-color: black;
+    color:rgb(230, 119, 252);
+}
+#peah2{
+    color:rgb(0, 194, 74);
+}
+#seah2{
+    color:rgb(65, 201, 255);
+}
+#tigh2{
+    color: orange;
+}
+#flah2{
+    color: rgb(255, 159, 175);
+}
+#lemh2{
+    color: rgb(240, 164, 120);
+}
+#anth2{
+    color: rgb(180, 218, 231);
+}
+#penh2{
+    color: rgb(80, 255, 232) ;
+}
+#girh2{
+    color: rgb(230, 84, 0);
+}
+
+#about1{
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+#about2{
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+
+.aboutul li{
+    color: whitesmoke;
+    padding-left:0px;
+}
+
+.aboutul{
+    padding:0;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+#addr{
+    display: block;
+    font-weight: bold;
+    color: rgb(255, 214, 32);
+    font-size: 1.5em;
+    padding:0;
+}
+
+#times{
+    display: block;
+    font-weight: bold;
+    color: rgb(255, 214, 32);
+    font-size: 1.5em;
+    padding:0;
+}
+
+#ol{
+    padding:5px 10px 0px 30px;
+    text-decoration: solid whitesmoke;
+}
+
+#cont{
+    display: block;
+    font-weight: bold;
+    color: rgb(255, 214, 32);
+    font-size: 1.5em;
+    padding:0;
+}
+
+.table{
+    color: whitesmoke;
+    border: 2px solid #9b9b9b;
+    width: 100%;
+}
+
+td{
+    text-align: center;
+    border-top:2px solid rgb(255, 214, 32);
+}
+
+.last{
+    border-bottom:2px solid rgb(255, 214, 32);
+}
+
+.price{
+    font-weight: bold;
+    margin: 0;
+    color: rgb(255, 214, 32);
+}
+
+.price1{
+    font-weight: bold;
+    margin: 0;
+    color: whitesmoke;
+}
+
+#weekevent{
+    color: rgb(22, 0, 122);
+}
+
+#eventpara{
+    margin: 0;
+}
+
+#inbox1{
+    border: none;
+}
+
+#inbox2{
+    border:none;
+}
+
+#ad1{
+    border: none;
+}
+
+#ab2{
+    border:none;
+}
+
+#address{
+    list-style-type: none;
+}
+
+#contact{
+    list-style-type: none;
+}
+
+#openingtimes{
+    list-style-type: none;
+}
+
+#booklink{
+    color: rgb(255, 214, 32);
+    font-weight: bold;
+}
+
+#donatelink{
+    text-align: left;
+}
+
+#sponsorh2{
+    text-align: left;
+}
+
+#weekevent{
+    background-color: black;
+    color: rgb(82, 255, 66);
+}
+
+#inbox3{
+    border: none;
+}
+
+#holdp{
+    color: whitesmoke;
+    margin: 0;
+    padding: 0px 0px 0px 18px;
+}
+
+.calltoaction{
+    font-weight: bolder;
+    font-size: 3em;
+    background-color: rgb(255, 214, 32);
+    color:black;
+    text-decoration:none;
+}
+
+.indexh2{
+    text-align: center;
+    padding: 0;
+}
+
+/* footer links are easier to tap without SEO issues on mobile*/
+.taptarget{
+    padding-top: 25px;
+}
+
+#ab1{
+    border:none;
+}
+
+#ad2{
+    border:none;
+}
+
+/* pc desktop settings */
+@media only screen and (min-width : 900px) {
+
+.indexh2{
+    text-align: left;
+    padding: 0px 0px 0px 4px;
+}
+
+.boxb{
+    width:50%
+}
+
+/*all hyperlinks except the manin nav mouse hover colour*/
+
+a:hover{
+    color: whitesmoke;
+}
+
+.mainNav a:hover{
+    text-decoration: underline whitesmoke;
+}
+
+.split{
+    padding-bottom: 10px;
+}
+
+/*header 2 not in boxes align left for desktop.*/
+.h2d2{
+    margin-left: 77px;
+    text-align: left;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 76px 0px 76px;
+}
+
+.top p{
+    margin:0px 0px 0px 5px;
+    text-align: left;
+    font-size: 1.2em;
+    border:0;
+}
+
+
+.top h2{
+    margin:0px 0px 0px 5px;
+}
+
+.top picture{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.box{
+    margin: 3px;
+}
+
+#inbox1{
+    border: none;
+    padding:0;
+    margin:0px 77px 0px 77px;
+}
+
+#inbox2{
+    border:none;
+    padding:0;
+    margin:0px 77px 0px 77px;
+}
+
+#inbox3{
+    padding:0;
+    margin:0px 77px 0px 77px;
+}
+
+#partners{
+    padding:0;
+    margin:0px 77px 0px 77px;
+}
+
+#tiger{
+    height:401px;
+    width: auto;
+    padding-top: 5px;
+}
+
+#lemur{
+    height:229px;
+    width: auto;
+    padding-top: 5px;
+}
+
+footer{
+    margin-left: 61px;
+}
+
+#chamelion2{
+    height:350px;
+    width: auto;
+    padding-top: 5px;
+}
+
+.boxa{
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.boxa p{
+    margin:0;
+    padding:0;
+}
+
+.top a{
+    text-align: left;
+}
+
+.paragraph{
+    margin:0;
+}
+
+.aboutul{
+    width: 100%;
+    align-content: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#ol{
+    margin-top:0;
+    align-items: center;
+    display:block;
+}
+
+#lorikeet{
+    height: 350px;
+    width: auto;
+    padding-top: 5px;
+}
+
+#about1{
+    text-align: left;
+    padding:0px 0px 2px 3px;
+}
+#about2{
+    text-align: left;
+    padding:0px 0px 2px 3px;
+}
+
+.animaltop{
+    display: flex;
+    justify-content: center;
+}
+
+.navbutton{
+    font-size: 1.5em;
+}
+
+#trustbox{
+    margin-left: 77px;
+    width: 40%;
+}
+
+#sign{
+    width: 80%;
+    margin-left:30px;
+}
+
+#ab1{
+    margin-left: 0;
+    border: solid whitesmoke 2px;
+}
+
+#ad2{
+    margin-right:0;
+    border: solid whitesmoke 2px;
+}
+
+#holdp{
+    padding: 0px 0px 0px 75px;
+}
+
+/* footer links are neater on desktop no need for large tap gaps between them*/
+.taptarget{
+    padding: 0;
+}
+
+}

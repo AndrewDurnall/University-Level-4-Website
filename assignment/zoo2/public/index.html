@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#FFD620">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wilson Zoo">
+    <link rel="stylesheet" href="stylesBase.css">
+    <title>Welcome to Wilson Zoo!</title>
+
+</head>
+
+<body>
+    <div id="myPage">
+        <header id="mainHeader">
+            <h1>Welcome to Wilson Zoo</h1>
+
+        </header>
+
+        <nav class="mainNav">
+            <!--personal photograph-->
+            <a href="index.html">
+                <picture class="logo">
+                    <img src="images/svg.svg" alt="logo" width="200" height="200">
+                </picture>
+            </a>
+            <ul>
+                <li><a id="page" href="index.html"><span id="indexh2" class="navbutton">Home</span></a></li>
+                <li><a href="about.html"><span class="navbutton">About</span></a></li>
+                <li><a href="animals.html"><span class="navbutton">Animals</span></a></li>
+                <li><a href="kids.html"><span class="navbutton">Kids</span></a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="top">
+
+                <div class="box" id="inbox1">
+
+                    <h2 class="indexh2">Our Zoo is Da Beast!</h2>
+                    <!--photo taken from https://www.dudleyzoo.org.uk/-->
+                    <picture>
+                        <source srcset="images/tigerbanner.webp" type="image/webp">
+                        <source srcset="images/tigerbanner.jpg" type="image/jpg">
+                        <img class="banner" src="images/tigerbanner.jpg" alt="tiger" width="1200" height="495">
+                    </picture>
+                    <div class="split">
+                        <p class="p1">Wilson Zoo is unique… a home to more than 1300 animals, and has nigh on 200
+                            species,
+                            including some of the rarest creatures on Planet Earth.
+                            Much of the animal collection is linked to international conservation and breeding
+                            programmes and
+                            several of our global projects have received awards.
+                            Endangered species include Asiatic lions, Sumatran tigers,
+                            Bornean orang utans, Tibetan red pandas, Rothschild giraffes,
+                            Madagascan lemurs and Humboldt penguins –
+                            Wilson Zoo has the UK's largest parent-reared colony.</p>
+                    </div>
+                </div>
+
+                <div class="box" id="inbox2">
+                    <h2 class="indexh2">Much more than just a Zoo...</h2>
+                    <!--photo taken from https://www.dudleyzoo.org.uk/-->
+                    <picture>
+                        <source srcset="images/pengbanner.webp" type="image/webp">
+                        <source srcset="images/pengbanner.jpg" type="image/jpg">
+                        <img class="banner" src="images/pengbanner.jpg" alt="penguin" width="1200" height="495">
+                    </picture>
+                    <div class="split">
+                        <!--paragraph taken from https://www.dudleyzoo.org.uk/-->
+                        <p id="p2">Hundreds of exotic and endangered animals inhabit an ancient wooded hillside
+                            within a rich geological history, around the ruins of the 11th century Castle and share a
+                            site
+                            with the world’s
+                            largest single collection of Modernist Tecton structures – and the country’s only vintage
+                            chairlift!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="boxb">
+                    <a href="bookings.html#donatelink" class="calltoaction">HELP THE ZOO</a>
+                    <p>By Donating you really help us keep going and keep our Animals!</p>
+                </div>
+
+                <div class="boxb">
+                    <a href="bookings.html#booksection" class="calltoaction">BOOK A VISIT</a>
+                    <p>Book your visit in advance to receive discounts on entry prices and special offers!</p>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="boxa">
+                    <h2>Animal of the week</h2>
+                    <h2>Chamelion!</h2>
+                    <!--personal photograph-->
+                    <picture>
+                        <source srcset="images/chamelion.webp" type="image/webp">
+                        <source srcset="images/chamelion.jpg" type="image/jpg">
+                        <img id="chamelion" src="images/chamelion.jpg" alt="chamelion" class="bodyimg" width="530" height="400">
+                    </picture>
+                    <p>These amazing creatures have lots of characteristics!</p>
+                    <a href="animals.html">See the Animals</a>
+                </div>
+
+                <div class="boxa">
+                    <h2>Event of the week</h2>
+                    <h2>Bird Feeding!</h2>
+                    <!--photo taken from https://www.dudleyzoo.org.uk/-->
+                    <picture>
+                        <source srcset="images/birdfeeding.webp" type="image/webp">
+                        <source srcset="images/birdfeeding.jpg" type="image/jpg">
+                        <img id="event" src="images/birdfeeding.jpg" alt="events" class="bodyimg" width="960" height="724">
+                    </picture>
+                    <p>These joyful birds love our guests, and the syrup of course!</p>
+                    <a href="bookings.html#eventlink">Feed the Birds!</a>
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <p> &copy; Wilson Zoo Tel No. 01234 654 321 <a href="bookings.html">Book Your visit Today!</a></p>
+            <ul class="footer">
+                <li>
+                    <p class="footp">Web links to other UK Zoo's:</p>
+                </li>
+                <li class="taptarget"><a href="https://www.chesterzoo.org/">Chester Zoo</a></li>
+                <li class="taptarget"><a href="https://twycrosszoo.org/">Twycross Zoo</a></li>
+            </ul>
+            <p>Andrew Durnall - 19025889</p>
+        </footer>
+    </div>
+    <script>
+
+        //check whether browser support service workers
+
+        if ('serviceWorker' in navigator) {
+
+            window.addEventListener('load', function () {
+
+                navigator.serviceWorker.register('serviceworker.js').then(
+
+                    function (registration) {
+
+                        console.log('Service worker registration successful', registration);
+
+                    },
+
+                    function (err) {
+
+                        console.log('Service worker registration failed', err);
+
+                    });
+
+            });
+
+        }
+
+    </script>
+</body>
+
+</html>
